@@ -1,0 +1,6 @@
+#POST  https://suited-mutual-lynx.ngrok-free.app/api/messages
+
+#{
+
+POST https://rathole.anamneasy.de/daniel/api/messages
+{}

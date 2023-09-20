@@ -1,0 +1,8 @@
+.env
+.idea
+
+# build
+lib/
+
+# dependencies
+node_modules/
