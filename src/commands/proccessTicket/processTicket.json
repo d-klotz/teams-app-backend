@@ -1,0 +1,52 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Ticket #8943829 has been created!"
+    },
+    {
+      "type": "TextBlock",
+      "text": "An agent is going to reach out soon.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "View Details",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Summary"
+          },
+          {
+            "type": "TextBlock",
+            "text": "${summary}",
+            "wrap": true
+          },
+          {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Details"
+          },
+          {
+            "type": "TextBlock",
+            "text": "${details}",
+            "wrap": true
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

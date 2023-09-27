@@ -1,0 +1,60 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Create your ticket"
+    },
+    {
+      "type": "Input.Text",
+      "placeholder": "Summary",
+      "id": "summary"
+    },
+    {
+      "type": "Input.Text",
+      "id": "details",
+      "placeholder": "Add more details",
+      "isMultiline": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "msteams": {
+        "feedback": {
+          "hide": true
+        }
+      },
+      "data": {
+        "text": "Any additional text that would be needed by the backend",
+        "msteams": {
+          "type": "messageBack",
+          "text": "delete message"
+        }
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Create",
+      "mode": "primary",
+      "style": "positive",
+      "msteams": {
+        "feedback": {
+          "hide": true
+        }
+      },
+      "data": {
+        "text": "Any additional text that would be needed by the backend",
+        "msteams": {
+          "type": "messageBack",
+          "text": "process ticket"
+        }
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

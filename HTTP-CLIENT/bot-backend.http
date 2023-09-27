@@ -1,6 +1,5 @@
-#POST  https://suited-mutual-lynx.ngrok-free.app/api/messages
+#POST https://daniel.rathole.anamneasy.de/api/messages
+#{}
 
-#{
-
-POST https://rathole.anamneasy.de/daniel/api/messages
+POST https://daniel.rathole.anamneasy.de/api/notification?agentId=29:12juldFPajW2MPdk_PKmElkYkmIkUWVT8e5bZBpJIAOj-kyMkv8G_qL-k0r4ukOprt8dXkxkqNya6iS_J6fOJcQ&userName=Daniel
 {}

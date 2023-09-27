@@ -1,0 +1,20 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "large",
+      "weight": "Bolder",
+      "text": "Remote Support"
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "weight": "default",
+      "text": "${userName} has downloaded the support application",
+      "wrap": true
+    }
+  ]
+}

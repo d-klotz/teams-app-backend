@@ -5,8 +5,8 @@ import {
   TriggerPatterns,
 } from "@microsoft/teamsfx";
 import { AdaptiveCards } from "@microsoft/adaptivecards-tools";
-import helloWorldCard from "./adaptiveCards/helloworldCommand.json";
-import { CardData } from "./cardModels";
+import helloWorldCard from "./helloworldCommand.json";
+import { CardData } from "../../cardModels";
 
 /**
  * The `HelloWorldCommandHandler` registers a pattern with the `TeamsFxBotCommandHandler` and responds
