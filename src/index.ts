@@ -36,7 +36,8 @@ app.get("/api/notification", async (req, res) => {
     }
     const cardJson = AdaptiveCards.declare(supportApplicationIsBeingDownloaded).render(cardData);
     await agent.sendAdaptiveCard(cardJson)
-    return res.redirect(301, 'https://google.com/');
+
+    return res.redirect(307, 'https://google.com/');
 
 })
 
