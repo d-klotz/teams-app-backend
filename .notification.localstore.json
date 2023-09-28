@@ -1,25 +1,4 @@
 {
-  "_b240c200-51ba-41e8-8a74-630de2f87cfa_19:b6d3546d-a82e-4e3c-aa88-adeb595a761b_f0c38db0-9daf-4b12-893b-3c99eac922e9@unq.gbl.spaces": {
-    "activityId": "1695737671793",
-    "user": {
-      "id": "29:12juldFPajW2MPdk_PKmElkYkmIkUWVT8e5bZBpJIAOj-kyMkv8G_qL-k0r4ukOprt8dXkxkqNya6iS_J6fOJcQ",
-      "name": "Daniel Felipe Klotz",
-      "aadObjectId": "f0c38db0-9daf-4b12-893b-3c99eac922e9"
-    },
-    "bot": {
-      "id": "28:e6238383-83c4-47b2-8c13-3524f7562691",
-      "name": "new-azure-bot"
-    },
-    "conversation": {
-      "isGroup": true,
-      "conversationType": "groupChat",
-      "tenantId": "b240c200-51ba-41e8-8a74-630de2f87cfa",
-      "id": "19:b6d3546d-a82e-4e3c-aa88-adeb595a761b_f0c38db0-9daf-4b12-893b-3c99eac922e9@unq.gbl.spaces"
-    },
-    "channelId": "msteams",
-    "locale": "en-GB",
-    "serviceUrl": "https://smba.trafficmanager.net/emea/"
-  },
   "_b240c200-51ba-41e8-8a74-630de2f87cfa_19:ad98e813-5ad6-43ff-8f92-7cbab75c363e_f0c38db0-9daf-4b12-893b-3c99eac922e9@unq.gbl.spaces": {
     "activityId": "1695738139373",
     "user": {
@@ -39,6 +18,26 @@
     },
     "channelId": "msteams",
     "locale": "en-GB",
+    "serviceUrl": "https://smba.trafficmanager.net/emea/"
+  },
+  "_b240c200-51ba-41e8-8a74-630de2f87cfa_19:b6d3546d-a82e-4e3c-aa88-adeb595a761b_f0c38db0-9daf-4b12-893b-3c99eac922e9@unq.gbl.spaces": {
+    "activityId": "f:76963186-5fb2-8dab-70f6-e091d3d7b2ae",
+    "user": {
+      "id": "29:1JECaqJr9q6GXyJaPqV4IPCzIPS_7p55A-rQ-KIml3bn8t10E7S1gZuc2BwQhiiGWb5dafRbNvn8IhvVPwNtBww",
+      "aadObjectId": "b6d3546d-a82e-4e3c-aa88-adeb595a761b"
+    },
+    "bot": {
+      "id": "28:e6238383-83c4-47b2-8c13-3524f7562691",
+      "name": "new-azure-bot"
+    },
+    "conversation": {
+      "isGroup": true,
+      "conversationType": "groupChat",
+      "tenantId": "b240c200-51ba-41e8-8a74-630de2f87cfa",
+      "id": "19:b6d3546d-a82e-4e3c-aa88-adeb595a761b_f0c38db0-9daf-4b12-893b-3c99eac922e9@unq.gbl.spaces"
+    },
+    "channelId": "msteams",
+    "locale": "en-US",
     "serviceUrl": "https://smba.trafficmanager.net/emea/"
   }
 }

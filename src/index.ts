@@ -1,9 +1,8 @@
 import express from 'express';
 import { commandApp } from "./internal/initialize";
 import { TeamsBot } from "./teamsBot";
-import supportApplicationHasBeenDownloaded from './cards/supportApplicationHasBeenDownloaded.json'
+import supportApplicationIsBeingDownloaded from './cards/supportApplicationIsBeingDownloaded.json'
 import {AdaptiveCards} from "@microsoft/adaptivecards-tools";
-import processTicket from "./commands/proccessTicket/processTicket.json";
 
 const app = express();
 const port = process.env.PORT || 3100;
@@ -17,9 +16,11 @@ app.post("/api/messages", async (req, res) => {
     });
 });
 
-app.post("/api/notification", async (req, res) => {
+app.get("/api/notification", async (req, res) => {
     console.log('Endpoint was hit via notification!')
     const { agentId, userName } = req.query;
+
+
     let agent = undefined
     const targets =  await commandApp.notification.getPagedInstallations()
     for (const target of targets.data) {
@@ -33,9 +34,10 @@ app.post("/api/notification", async (req, res) => {
     const cardData = {
         userName
     }
-    const cardJson = AdaptiveCards.declare(supportApplicationHasBeenDownloaded).render(cardData);
+    const cardJson = AdaptiveCards.declare(supportApplicationIsBeingDownloaded).render(cardData);
     await agent.sendAdaptiveCard(cardJson)
-    return res.status(200).send();
+    return res.redirect(301, 'https://google.com/');
+
 })
 
 app.listen(port, () => {

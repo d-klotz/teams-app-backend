@@ -21,7 +21,7 @@
     {
       "type": "Action.OpenUrl",
       "title": "Download support application",
-      "url": "https://www.google.com",
+      "url": "${redirectUrl}",
       "mode": "primary",
       "style": "positive",
       "msteams": {
